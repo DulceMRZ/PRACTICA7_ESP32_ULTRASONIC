@@ -228,9 +228,25 @@ b) Corrobora que el simulador compile bien el programa
 ![](https://github.com/DulceMRZ/PRACTICA7_ESP32_ULTRASONIC/blob/main/New%20ESP32%20Project%20-%20Wokwi%20Simulator%20-%20Google%20Chrome%2017_06_2023%2008_32_47%20a.%20m..png?raw=true)
 
 
-### 5. Conexión de Node - Red
+### 5. Conexión Diagrama en Node - Red
+
+En Node Red, nos estaremos apoyando para poder ver los datos en tiempo real, al momento de estar simularlos. 
+
+###### Nota: es importante ya contantar con Node Red previamente descargado, y la IP, con la que estaras trabajando. 
+
+![](https://github.com/DulceMRZ/PRACTICA7_ESP32_ULTRASONIC/blob/main/DIAGRAMA%20NODE%20RED.PNG?raw=true)
+
+Al inciar tu diagrama de bloques debes ajustar información importante en cada Topico: 
 
 
+a) Para el **Bloque - mqtt in** es importante Seleccionar la opción de "dulce/tokai2" y la IP que se tiene en el programa (44.195.202.69), en tu caso anexaras tus datos. 
+
+![](https://github.com/DulceMRZ/PRACTICA7_ESP32_ULTRASONIC/blob/main/TOPIC_mqtt%20in.PNG?raw=true)
+
+
+b) Para el **Bloque - JSON** es importante Seleccionar la opción de "Always convert to JavaScript Object"
+
+![](https://github.com/DulceMRZ/PRACTICA7_ESP32_ULTRASONIC/blob/main/TOPIC_JSON.PNG?raw=true)
 
 
 
